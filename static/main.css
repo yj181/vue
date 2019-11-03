@@ -1,0 +1,43 @@
+* {
+ padding: 0;
+ margin: 0;
+ font-size:14px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.el-submenu .el-menu-item{
+    min-width: 180px;
+}
+.contentBox{
+    width:100%;
+    height: 100%;
+}
+.headerCSS{
+    color:#fff;
+    background-color:#409EFF !important;
+}
+
+.content{
+    width:100%;
+    height: 100%;
+    display:-webkit-flex;
+    display: flex;
+    justify-content :space-between;
+}
+.mainContent{
+    margin:0 0 0 20px;
+}
+.iconwidth{
+    width:64px;
+    overflow: hidden;
+}
+.navMenu{
+    width:188px;
+    overflow: hidden;
+} 
+.redicon{
+    color:#409EFF
+}
