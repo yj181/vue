@@ -10,12 +10,8 @@ import publicFun from '../src/lib/commonFun';
 import filters from '../src/lib/filters';
 import 'element-ui/lib/theme-chalk/index.css';
 
-
 Vue.use(ElementUI)
 Vue.use(publicFun);
-
-
-
 
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
@@ -28,13 +24,9 @@ Vue.prototype.$axios = axios;
 new Vue({
   created(){
     let vh = document.documentElement.clientHeight;
-    
     window.onresize = function(){
-      
       store.commit("setMaxHeight",vh);
     }
-    
-    
   },
   mounted(){
     
